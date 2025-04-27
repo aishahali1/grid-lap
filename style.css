@@ -1,0 +1,86 @@
+.hexaMain{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(14,1fr);
+    align-content: center;
+}
+.hexaContainer{
+    grid-template-areas: 
+    "pur1" 
+    "green1 blue1 red1"
+   "green2 green2 green2"
+   "green3"
+   "blue2 blue2" 
+   "red2 red2 red2"
+   "pur3 pur3 pur3 pur3"
+   "green4 green4 green4"
+   "blue3 red3"
+   "pur4";
+   width: 100%; height: 20vh;
+   grid-gap: 5px;
+}
+   
+.purple1{
+    grid-area: pur1;
+    background-color: blueviolet;
+}
+.green1{
+    grid-area: green1;
+    background-color: green;
+}
+.purple2{
+    grid-area: pur2;
+    background-color: blueviolet;
+}
+.purple3{
+ grid-area: pur3;
+ background-color: blueviolet;
+}
+.purple4{
+    grid-area: pur4;
+    background-color: blueviolet;
+}
+.green2{
+    grid-area: green2;
+    background-color: green;
+}
+.green3{
+    grid-area: green3;
+    background-color: green;
+}
+.green4{
+    grid-area: green4;
+    background-color: green;
+}
+.blue1{
+grid-area: blue1;
+background-color: blue;
+}
+.blue2{
+    grid-area: blue2;
+    background-color: blue;
+    }
+.blue3{
+  grid-area: blue3; 
+  background-color: blue;
+}
+.blue4{
+    grid-area: blue4;
+    background-color: blue;
+    }
+
+.red1{
+    grid-area: red1;
+    background-color: red;
+}
+.red2{
+    grid-area: red2;
+    background-color: red;
+
+}
+.red3{
+    grid-area: red3;
+    background-color: red;
+    
+}
